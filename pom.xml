@@ -6,4 +6,29 @@
   <groupId>com.smalone</groupId>
   <artifactId>Ironmans-Right-PinkyToe</artifactId>
   <version>1.0.0</version>
-  <name>IronmansRightPinkyToe</name>
+  <name>IronmansRightPinkyToe</name>  
+         
+<description>Neat TNT (Spigot 1.12.2)</description>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.12.2-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
+
